@@ -9,5 +9,13 @@ public class BoxingDemo {
         Integer integer = new Integer(num);
         Double doubleObj = new Double(3.14);
         Long longObj = new Long("95567");
+
+        // Approach 2 - With the help of valueOf()
+        Integer integer1 = Integer.valueOf(num);
+        Double doubleObj1 = Double.valueOf("3.14");
+        Long longObj1 = Long.valueOf("95657");
+
+        int num1 = Integer.parseInt("18");
+        System.out.println(num1);
     }
 }
